@@ -29,6 +29,7 @@
     "workbox-streams": "^6.6.0"
   },
   "scripts": {
+    "prebuild": "chmod -R 755 node_modules/.bin",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
