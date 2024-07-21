@@ -60,8 +60,17 @@ function Login() {
         return <Navigate to="/privado" />
     }
 
+
+
+
+
+
+
+
+
+
     return (
-        <div className="login-container">
+        <div>
             <Carregando carregando={carregando}>
                 <div>
                     <body className="text-center">
@@ -92,6 +101,7 @@ function Login() {
             </Carregando>
         </div>
     )
+
 }
 
 export default Login;
